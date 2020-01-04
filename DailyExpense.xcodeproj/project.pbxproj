@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA4ECA422F54B02009AF448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECA322F54B02009AF448 /* AppDelegate.m */; };
+		FAA4ECA722F54B02009AF448 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECA622F54B02009AF448 /* ViewController.m */; };
+		FAA4ECAA22F54B02009AF448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA4ECA822F54B02009AF448 /* Main.storyboard */; };
+		FAA4ECAC22F54B05009AF448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA4ECAB22F54B05009AF448 /* Assets.xcassets */; };
+		FAA4ECAF22F54B05009AF448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA4ECAD22F54B05009AF448 /* LaunchScreen.storyboard */; };
+		FAA4ECB222F54B05009AF448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECB122F54B05009AF448 /* main.m */; };
+		FAA4ECBC22F54B05009AF448 /* DailyExpenseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECBB22F54B05009AF448 /* DailyExpenseTests.m */; };
+		FAA4ECC722F54B05009AF448 /* DailyExpenseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECC622F54B05009AF448 /* DailyExpenseUITests.m */; };
+		FAA4ECD622F54B1B009AF448 /* l.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA4ECD522F54B1B009AF448 /* l.png */; };
+		FAA4ECDD22F55322009AF448 /* DEData.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECDC22F55322009AF448 /* DEData.m */; };
+		FAA4ECE022F55C04009AF448 /* cell1.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECDF22F55C04009AF448 /* cell1.m */; };
+		FAA4ECE322F55CFA009AF448 /* monthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECE222F55CFA009AF448 /* monthCell.m */; };
+		FAA4ECE622F569C1009AF448 /* AddIncomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECE522F569C1009AF448 /* AddIncomeVC.m */; };
+		FAA4ECE922F5718A009AF448 /* AddExpenseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA4ECE822F5718A009AF448 /* AddExpenseVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA4ECB822F54B05009AF448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA4EC9722F54B02009AF448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA4EC9E22F54B02009AF448;
+			remoteInfo = DailyExpense;
+		};
+		FAA4ECC322F54B05009AF448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA4EC9722F54B02009AF448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA4EC9E22F54B02009AF448;
+			remoteInfo = DailyExpense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA4EC9F22F54B02009AF448 /* DailyExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4ECA222F54B02009AF448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA4ECA322F54B02009AF448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA4ECA522F54B02009AF448 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAA4ECA622F54B02009AF448 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAA4ECA922F54B02009AF448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA4ECAB22F54B05009AF448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA4ECAE22F54B05009AF448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA4ECB022F54B05009AF448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA4ECB122F54B05009AF448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA4ECB722F54B05009AF448 /* DailyExpenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyExpenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4ECBB22F54B05009AF448 /* DailyExpenseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyExpenseTests.m; sourceTree = "<group>"; };
+		FAA4ECBD22F54B05009AF448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA4ECC222F54B05009AF448 /* DailyExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DailyExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA4ECC622F54B05009AF448 /* DailyExpenseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyExpenseUITests.m; sourceTree = "<group>"; };
+		FAA4ECC822F54B05009AF448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA4ECD522F54B1B009AF448 /* l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l.png; sourceTree = "<group>"; };
+		FAA4ECDB22F55322009AF448 /* DEData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEData.h; sourceTree = "<group>"; };
+		FAA4ECDC22F55322009AF448 /* DEData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEData.m; sourceTree = "<group>"; };
+		FAA4ECDE22F55C04009AF448 /* cell1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cell1.h; sourceTree = "<group>"; };
+		FAA4ECDF22F55C04009AF448 /* cell1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cell1.m; sourceTree = "<group>"; };
+		FAA4ECE122F55CFA009AF448 /* monthCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monthCell.h; sourceTree = "<group>"; };
+		FAA4ECE222F55CFA009AF448 /* monthCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = monthCell.m; sourceTree = "<group>"; };
+		FAA4ECE422F569C1009AF448 /* AddIncomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddIncomeVC.h; sourceTree = "<group>"; };
+		FAA4ECE522F569C1009AF448 /* AddIncomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddIncomeVC.m; sourceTree = "<group>"; };
+		FAA4ECE722F5718A009AF448 /* AddExpenseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddExpenseVC.h; sourceTree = "<group>"; };
+		FAA4ECE822F5718A009AF448 /* AddExpenseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddExpenseVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA4EC9C22F54B02009AF448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4ECB422F54B05009AF448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4ECBF22F54B05009AF448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA4EC9622F54B02009AF448 = {
+			isa = PBXGroup;
+			children = (
+				FAA4ECA122F54B02009AF448 /* DailyExpense */,
+				FAA4ECBA22F54B05009AF448 /* DailyExpenseTests */,
+				FAA4ECC522F54B05009AF448 /* DailyExpenseUITests */,
+				FAA4ECA022F54B02009AF448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA4ECA022F54B02009AF448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4EC9F22F54B02009AF448 /* DailyExpense.app */,
+				FAA4ECB722F54B05009AF448 /* DailyExpenseTests.xctest */,
+				FAA4ECC222F54B05009AF448 /* DailyExpenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA4ECA122F54B02009AF448 /* DailyExpense */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4ECD722F54D3B009AF448 /* Models */,
+				FAA4ECD422F54B11009AF448 /* images */,
+				FAA4ECA222F54B02009AF448 /* AppDelegate.h */,
+				FAA4ECA322F54B02009AF448 /* AppDelegate.m */,
+				FAA4ECA522F54B02009AF448 /* ViewController.h */,
+				FAA4ECA622F54B02009AF448 /* ViewController.m */,
+				FAA4ECA822F54B02009AF448 /* Main.storyboard */,
+				FAA4ECAB22F54B05009AF448 /* Assets.xcassets */,
+				FAA4ECAD22F54B05009AF448 /* LaunchScreen.storyboard */,
+				FAA4ECB022F54B05009AF448 /* Info.plist */,
+				FAA4ECB122F54B05009AF448 /* main.m */,
+				FAA4ECDE22F55C04009AF448 /* cell1.h */,
+				FAA4ECDF22F55C04009AF448 /* cell1.m */,
+				FAA4ECE122F55CFA009AF448 /* monthCell.h */,
+				FAA4ECE222F55CFA009AF448 /* monthCell.m */,
+				FAA4ECE422F569C1009AF448 /* AddIncomeVC.h */,
+				FAA4ECE522F569C1009AF448 /* AddIncomeVC.m */,
+				FAA4ECE722F5718A009AF448 /* AddExpenseVC.h */,
+				FAA4ECE822F5718A009AF448 /* AddExpenseVC.m */,
+			);
+			path = DailyExpense;
+			sourceTree = "<group>";
+		};
+		FAA4ECBA22F54B05009AF448 /* DailyExpenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4ECBB22F54B05009AF448 /* DailyExpenseTests.m */,
+				FAA4ECBD22F54B05009AF448 /* Info.plist */,
+			);
+			path = DailyExpenseTests;
+			sourceTree = "<group>";
+		};
+		FAA4ECC522F54B05009AF448 /* DailyExpenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4ECC622F54B05009AF448 /* DailyExpenseUITests.m */,
+				FAA4ECC822F54B05009AF448 /* Info.plist */,
+			);
+			path = DailyExpenseUITests;
+			sourceTree = "<group>";
+		};
+		FAA4ECD422F54B11009AF448 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4ECD522F54B1B009AF448 /* l.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		FAA4ECD722F54D3B009AF448 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAA4ECDB22F55322009AF448 /* DEData.h */,
+				FAA4ECDC22F55322009AF448 /* DEData.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA4EC9E22F54B02009AF448 /* DailyExpense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA4ECCB22F54B05009AF448 /* Build configuration list for PBXNativeTarget "DailyExpense" */;
+			buildPhases = (
+				FAA4EC9B22F54B02009AF448 /* Sources */,
+				FAA4EC9C22F54B02009AF448 /* Frameworks */,
+				FAA4EC9D22F54B02009AF448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyExpense;
+			productName = DailyExpense;
+			productReference = FAA4EC9F22F54B02009AF448 /* DailyExpense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA4ECB622F54B05009AF448 /* DailyExpenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA4ECCE22F54B05009AF448 /* Build configuration list for PBXNativeTarget "DailyExpenseTests" */;
+			buildPhases = (
+				FAA4ECB322F54B05009AF448 /* Sources */,
+				FAA4ECB422F54B05009AF448 /* Frameworks */,
+				FAA4ECB522F54B05009AF448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA4ECB922F54B05009AF448 /* PBXTargetDependency */,
+			);
+			name = DailyExpenseTests;
+			productName = DailyExpenseTests;
+			productReference = FAA4ECB722F54B05009AF448 /* DailyExpenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA4ECC122F54B05009AF448 /* DailyExpenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA4ECD122F54B05009AF448 /* Build configuration list for PBXNativeTarget "DailyExpenseUITests" */;
+			buildPhases = (
+				FAA4ECBE22F54B05009AF448 /* Sources */,
+				FAA4ECBF22F54B05009AF448 /* Frameworks */,
+				FAA4ECC022F54B05009AF448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA4ECC422F54B05009AF448 /* PBXTargetDependency */,
+			);
+			name = DailyExpenseUITests;
+			productName = DailyExpenseUITests;
+			productReference = FAA4ECC222F54B05009AF448 /* DailyExpenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA4EC9722F54B02009AF448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = TP;
+				TargetAttributes = {
+					FAA4EC9E22F54B02009AF448 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FAA4ECB622F54B05009AF448 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAA4EC9E22F54B02009AF448;
+					};
+					FAA4ECC122F54B05009AF448 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FAA4EC9E22F54B02009AF448;
+					};
+				};
+			};
+			buildConfigurationList = FAA4EC9A22F54B02009AF448 /* Build configuration list for PBXProject "DailyExpense" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA4EC9622F54B02009AF448;
+			productRefGroup = FAA4ECA022F54B02009AF448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA4EC9E22F54B02009AF448 /* DailyExpense */,
+				FAA4ECB622F54B05009AF448 /* DailyExpenseTests */,
+				FAA4ECC122F54B05009AF448 /* DailyExpenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA4EC9D22F54B02009AF448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4ECD622F54B1B009AF448 /* l.png in Resources */,
+				FAA4ECAF22F54B05009AF448 /* LaunchScreen.storyboard in Resources */,
+				FAA4ECAC22F54B05009AF448 /* Assets.xcassets in Resources */,
+				FAA4ECAA22F54B02009AF448 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4ECB522F54B05009AF448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4ECC022F54B05009AF448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA4EC9B22F54B02009AF448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4ECA722F54B02009AF448 /* ViewController.m in Sources */,
+				FAA4ECB222F54B05009AF448 /* main.m in Sources */,
+				FAA4ECE322F55CFA009AF448 /* monthCell.m in Sources */,
+				FAA4ECE922F5718A009AF448 /* AddExpenseVC.m in Sources */,
+				FAA4ECDD22F55322009AF448 /* DEData.m in Sources */,
+				FAA4ECE022F55C04009AF448 /* cell1.m in Sources */,
+				FAA4ECA422F54B02009AF448 /* AppDelegate.m in Sources */,
+				FAA4ECE622F569C1009AF448 /* AddIncomeVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4ECB322F54B05009AF448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4ECBC22F54B05009AF448 /* DailyExpenseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA4ECBE22F54B05009AF448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA4ECC722F54B05009AF448 /* DailyExpenseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA4ECB922F54B05009AF448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA4EC9E22F54B02009AF448 /* DailyExpense */;
+			targetProxy = FAA4ECB822F54B05009AF448 /* PBXContainerItemProxy */;
+		};
+		FAA4ECC422F54B05009AF448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA4EC9E22F54B02009AF448 /* DailyExpense */;
+			targetProxy = FAA4ECC322F54B05009AF448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA4ECA822F54B02009AF448 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA4ECA922F54B02009AF448 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA4ECAD22F54B05009AF448 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA4ECAE22F54B05009AF448 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA4ECC922F54B05009AF448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA4ECCA22F54B05009AF448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA4ECCC22F54B05009AF448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = DailyExpense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domojis.dailyexpense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAA4ECCD22F54B05009AF448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = DailyExpense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domojis.dailyexpense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FAA4ECCF22F54B05009AF448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = DailyExpenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domojis.DailyExpenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyExpense.app/DailyExpense";
+			};
+			name = Debug;
+		};
+		FAA4ECD022F54B05009AF448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = DailyExpenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domojis.DailyExpenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyExpense.app/DailyExpense";
+			};
+			name = Release;
+		};
+		FAA4ECD222F54B05009AF448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = DailyExpenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domojis.DailyExpenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyExpense;
+			};
+			name = Debug;
+		};
+		FAA4ECD322F54B05009AF448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = DailyExpenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domojis.DailyExpenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DailyExpense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA4EC9A22F54B02009AF448 /* Build configuration list for PBXProject "DailyExpense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA4ECC922F54B05009AF448 /* Debug */,
+				FAA4ECCA22F54B05009AF448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA4ECCB22F54B05009AF448 /* Build configuration list for PBXNativeTarget "DailyExpense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA4ECCC22F54B05009AF448 /* Debug */,
+				FAA4ECCD22F54B05009AF448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA4ECCE22F54B05009AF448 /* Build configuration list for PBXNativeTarget "DailyExpenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA4ECCF22F54B05009AF448 /* Debug */,
+				FAA4ECD022F54B05009AF448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA4ECD122F54B05009AF448 /* Build configuration list for PBXNativeTarget "DailyExpenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA4ECD222F54B05009AF448 /* Debug */,
+				FAA4ECD322F54B05009AF448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA4EC9722F54B02009AF448 /* Project object */;
+}

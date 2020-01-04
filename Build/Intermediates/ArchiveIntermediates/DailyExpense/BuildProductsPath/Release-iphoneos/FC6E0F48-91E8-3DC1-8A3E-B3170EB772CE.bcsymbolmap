@@ -1,0 +1,158 @@
+BCSymbolMap Version: 2.0
+-[ViewController viewDidLoad]
+-[ViewController viewWillAppear:]
+-[ViewController getMonth:]
+-[ViewController tableView:numberOfRowsInSection:]
+-[ViewController tableView:cellForRowAtIndexPath:]
+-[ViewController tableView:heightForRowAtIndexPath:]
+-[ViewController dailyButtonTouchd:]
+-[ViewController monthlyButtonTouched:]
+-[ViewController addIncomeButtonTouched:]
+-[ViewController addExpenseButtonTouched:]
+-[ViewController remainingAmount]
+-[ViewController setRemainingAmount:]
+-[ViewController dailyButton]
+-[ViewController setDailyButton:]
+-[ViewController monthlyButton]
+-[ViewController setMonthlyButton:]
+-[ViewController totalIncome]
+-[ViewController setTotalIncome:]
+-[ViewController totalExpense]
+-[ViewController setTotalExpense:]
+-[ViewController incomeTable]
+-[ViewController setIncomeTable:]
+-[ViewController expenseTable]
+-[ViewController setExpenseTable:]
+-[ViewController dailyView]
+-[ViewController setDailyView:]
+-[ViewController monthlyView]
+-[ViewController setMonthlyView:]
+-[ViewController monthlyTable]
+-[ViewController setMonthlyTable:]
+-[ViewController nodata]
+-[ViewController setNodata:]
+-[ViewController bgView]
+-[ViewController setBgView:]
+-[ViewController .cxx_destruct]
+_OBJC_CLASS_$_ViewController
+_OBJC_IVAR_$_ViewController._incomeTable
+_OBJC_IVAR_$_ViewController._expenseTable
+_OBJC_IVAR_$_ViewController._monthlyTable
+_OBJC_IVAR_$_ViewController._dailyView
+_OBJC_IVAR_$_ViewController._monthlyView
+_OBJC_IVAR_$_ViewController._dailyButton
+_OBJC_IVAR_$_ViewController._monthlyButton
+_OBJC_CLASS_$_DEData
+_OBJC_IVAR_$_ViewController._remainingAmount
+_OBJC_IVAR_$_ViewController._totalIncome
+_OBJC_IVAR_$_ViewController._totalExpense
+_OBJC_IVAR_$_ViewController.income
+_OBJC_IVAR_$_ViewController.expense
+_OBJC_IVAR_$_ViewController.month
+_OBJC_IVAR_$_ViewController._nodata
+_OBJC_IVAR_$_ViewController._bgView
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+_OBJC_METACLASS_$_ViewController
+Apple LLVM version 10.0.0 (clang-1000.11.45.5)
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/ViewController.m
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/ViewController.h
+_OBJC_CLASS_$_AppDelegate
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/main.m
+main
+-[monthCell awakeFromNib]
+-[monthCell setSelected:animated:]
+-[monthCell month]
+-[monthCell setMonth:]
+-[monthCell income]
+-[monthCell setIncome:]
+-[monthCell expense]
+-[monthCell setExpense:]
+-[monthCell savings]
+-[monthCell setSavings:]
+-[monthCell bgView]
+-[monthCell setBgView:]
+-[monthCell .cxx_destruct]
+_OBJC_CLASS_$_monthCell
+_OBJC_IVAR_$_monthCell._month
+_OBJC_IVAR_$_monthCell._income
+_OBJC_IVAR_$_monthCell._expense
+_OBJC_IVAR_$_monthCell._savings
+_OBJC_IVAR_$_monthCell._bgView
+_OBJC_METACLASS_$_monthCell
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/monthCell.m
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/monthCell.h
+-[AddExpenseVC viewDidLoad]
+-[AddExpenseVC addIncomeButtinTouched:]
+-[AddExpenseVC titleTextField]
+-[AddExpenseVC setTitleTextField:]
+-[AddExpenseVC amountTextField]
+-[AddExpenseVC setAmountTextField:]
+-[AddExpenseVC .cxx_destruct]
+_OBJC_CLASS_$_AddExpenseVC
+_OBJC_IVAR_$_AddExpenseVC._titleTextField
+_OBJC_IVAR_$_AddExpenseVC._amountTextField
+_OBJC_METACLASS_$_AddExpenseVC
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/AddExpenseVC.m
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/AddExpenseVC.h
++[DEData removeDailyData]
++[DEData addExpenseToArray:setDate:setDetail:setAmount:]
++[DEData getExpenseArray]
++[DEData addIncomeToArray:setDate:setDetail:setAmount:]
++[DEData getIncomeArray]
++[DEData setTotalIncome:]
++[DEData getTotalIncome]
++[DEData setTotalExpense:]
++[DEData getTotalExpense]
++[DEData addMonthlyData:setExpense:setmonth:setsavings:]
++[DEData getMonthlyData]
+_OBJC_METACLASS_$_DEData
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/Models/DEData.m
+-[cell1 awakeFromNib]
+-[cell1 setSelected:animated:]
+-[cell1 titleName]
+-[cell1 setTitleName:]
+-[cell1 amountLabel]
+-[cell1 setAmountLabel:]
+-[cell1 .cxx_destruct]
+_OBJC_CLASS_$_cell1
+_OBJC_IVAR_$_cell1._titleName
+_OBJC_IVAR_$_cell1._amountLabel
+_OBJC_METACLASS_$_cell1
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/cell1.m
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/cell1.h
+-[AppDelegate application:didFinishLaunchingWithOptions:]
+-[AppDelegate applicationWillResignActive:]
+-[AppDelegate applicationDidEnterBackground:]
+-[AppDelegate applicationWillEnterForeground:]
+-[AppDelegate applicationDidBecomeActive:]
+-[AppDelegate applicationWillTerminate:]
+-[AppDelegate window]
+-[AppDelegate setWindow:]
+-[AppDelegate .cxx_destruct]
+_OBJC_IVAR_$_AppDelegate._window
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+_OBJC_METACLASS_$_AppDelegate
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/AppDelegate.m
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/AppDelegate.h
+-[AddIncomeVC viewDidLoad]
+-[AddIncomeVC addIncomeButtinTouched:]
+-[AddIncomeVC titleTextField]
+-[AddIncomeVC setTitleTextField:]
+-[AddIncomeVC amountTextField]
+-[AddIncomeVC setAmountTextField:]
+-[AddIncomeVC .cxx_destruct]
+_OBJC_CLASS_$_AddIncomeVC
+_OBJC_IVAR_$_AddIncomeVC._titleTextField
+_OBJC_IVAR_$_AddIncomeVC._amountTextField
+_OBJC_METACLASS_$_AddIncomeVC
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/AddIncomeVC.m
+/Users/Macbook/Desktop/60 Dollars Apps/DailyExpense/DailyExpense/AddIncomeVC.h
